@@ -44,45 +44,45 @@ const TopHeader = () => {
                         </li>
                         <li>
                             <a
-                                href="/about"
-                                onClick={() => setNavActive("/about")}
-                                className={navActive === "/about" ? "active" : ""}
+                                href="#about"
+                                onClick={() => setNavActive("#about")}
+                                className={navActive === "#about" ? "active" : ""}
                             >
                                 About
                             </a>
                         </li>
                         <li>
                             <a
-                                onClick={() => setNavActive("/experience")}
-                                className={navActive === "/experience" ? "active" : ""}
-                                href="/experience"
+                                onClick={() => setNavActive("#experience")}
+                                className={navActive === "#experience" ? "active" : ""}
+                                href="#experience"
                             >
                                 Skills
                             </a>
                         </li>
                         <li>
                             <a
-                                onClick={() => setNavActive("/portfolio")}
-                                className={navActive === "/portfolio" ? "active" : ""}
-                                href="/portfolio"
+                                onClick={() => setNavActive("#portfolio")}
+                                className={navActive === "#portfolio" ? "active" : ""}
+                                href="#portfolio"
                             >
                                 Projects
                             </a>
                         </li>
                         <li>
                             <a
-                                href="/blogs"
-                                onClick={() => setNavActive("/blogs")}
-                                className={navActive === "/blogs" ? "active" : ""}
+                                href="#blogs"
+                                onClick={() => setNavActive("#blogs")}
+                                className={navActive === "#blogs" ? "active" : ""}
                             >
                                 Blogs
                             </a>
                         </li>
                         <li>
                             <a
-                                onClick={() => setNavActive("/contact")}
-                                className={navActive === "/contact" ? "active" : ""}
-                                href="/contact"
+                                onClick={() => setNavActive("#contact")}
+                                className={navActive === "#contact" ? "active" : ""}
+                                href="#contact"
                             >
                                 Contact
                             </a>

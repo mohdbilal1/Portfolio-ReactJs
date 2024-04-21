@@ -7,7 +7,7 @@ import { BiMessageSquareDetail } from "react-icons/bi";
 import "./nav.css";
 
 const Nav = () => {
-  const [active, setActive] = useState("/");
+  const [active, setActive] = useState("#");
 
   return (
     <nav className="navBox">
@@ -19,30 +19,30 @@ const Nav = () => {
         <AiOutlineHome />
       </a>
       <a
-        onClick={() => setActive("/about")}
-        className={active === "/about" ? "active" : ""}
-        href="/about"
+        onClick={() => setActive("#about")}
+        className={active === "#about" ? "active" : ""}
+        href="#about"
       >
         <AiOutlineUser />
       </a>
       <a
-        onClick={() => setActive("/experience")}
-        className={active === "/experience" ? "active" : ""}
-        href="/experience"
+        onClick={() => setActive("#experience")}
+        className={active === "#experience" ? "active" : ""}
+        href="#experience"
       >
         <BiBook />
       </a>
       <a
-        onClick={() => setActive("/services")}
-        className={active === "/services" ? "active" : ""}
-        href="/services"
+        onClick={() => setActive("#services")}
+        className={active === "#services" ? "active" : ""}
+        href="#services"
       >
         <RiServiceLine />
       </a>
       <a
-        onClick={() => setActive("/contact")}
-        className={active === "/contact" ? "active" : ""}
-        href="/contact"
+        onClick={() => setActive("#contact")}
+        className={active === "#contact" ? "active" : ""}
+        href="#contact"
       >
         <BiMessageSquareDetail />
       </a>
