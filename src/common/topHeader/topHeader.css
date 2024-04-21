@@ -1,0 +1,85 @@
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f1f38;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 2px #1f1f38;
+  padding: 0.4rem;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+
+}
+
+.heading-div-mobile {
+  display: none;
+}
+
+.heading-div-mobile button .fs-1textwhite {
+  color: white;
+  font-size: 38px;
+}
+
+.topHeader .logo {
+  width: 5rem;
+  margin-left: 34px;
+  border-radius: 1rem;
+}
+
+.topHeader .liauto {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.topHeader .liauto li {
+  margin: 0 1rem;
+}
+
+.topHeader .liauto li a {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+.topHeader .liauto li a:hover {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+.topHeader .liauto li a.active {
+  background: #4db5ff;
+  color: #1f1f38;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-5rem);
+  }
+
+  to {
+    transform: translateY(0rem);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .topHeader {
+    z-index: 1;
+  
+  }
+  .rightUL {
+    display: none;
+  }
+
+  .heading-div-mobile {
+    display: block;
+  }
+
+  .topHeader .logo {
+    width: 3.2rem;
+    margin:0 10px;
+    border-radius: 0.5rem;
+  }
+}

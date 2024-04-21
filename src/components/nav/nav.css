@@ -1,0 +1,39 @@
+.navBox {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  bottom: 2rem;
+  left: calc(50%);
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+
+.navBox a {
+  background: transparent;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.1rem;
+}
+
+.navBox a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.navBox a.active {
+  background: #4db5ff;
+  color: #1f1f38;
+}
+
+@media screen and (max-width: 767px) {
+  .navBox {
+    left: calc(45%);
+
+  }
+}

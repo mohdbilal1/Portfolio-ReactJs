@@ -1,0 +1,130 @@
+.WhereiHaveWorked {
+    margin: 3rem 0;
+}
+
+.WhereiHaveWorked h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #4db5ff;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+}
+
+.tabsBox .tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tabsBox .tabs .left-tabs {
+    width: 15rem;
+}
+
+.mange-tab2 {
+    padding: 1rem 1.5rem;
+    border: none;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: start;
+    width: 12rem;
+    background-color: unset;
+    border-left: 2px solid #f4faff;
+    border-right: '1px solid #1f1f38';
+    border-top: '1px solid #1f1f38';
+    border-bottom: '1px solid #1f1f38'
+}
+
+.mange-tab2:hover {
+    color: #4db5ff;
+    border-left: 2px solid #4db5ff;
+    border-right: 1px solid #4db5ff;
+    border-top: 1px solid #4db5ff;
+    border-bottom: 1px solid #4db5ff;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.TabPanelDiv {
+    width: 40rem;
+    margin-left: 2rem;
+    color: white;
+}
+
+.TabPanel-content {
+    padding: 5px;
+}
+
+.TabPanel-content h1 {
+    font-size: 18px;
+}
+
+.TabPanel-content h1 span {
+    color: #4db5ff;
+
+}
+
+.TabPanel-content .worktime {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.TabPanel-content div {
+    display: flex;
+}
+
+.TabPanel-content div p {
+    font-size: 14px;
+    margin: 6px 0;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.TabPanel-content div p .fs1 {
+    font-size: 20px;
+    margin-top: 2px;
+    color: #4db5ff;
+
+}
+
+.TabPanel-content .websiteName {
+    font-size: 10px;
+    color: #4db5ff;
+    margin: 2px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .tabsBox .tabs {
+        display: block;
+    }
+
+    .tabsBox .tabs .left-tabs {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .tabsBox .tabs .MuiTabsList-root {
+        display: flex;
+        width: 100%;
+        overflow-x: scroll;
+        margin: 0 1.2rem;
+        border-bottom:2px solid #f4faff;
+
+    }
+
+    .mange-tab2 {
+        width: 9rem !important;
+        border:2px solid #f4faff;
+        margin: 0.02rem 0.5rem;
+        border-radius: 0.2rem;
+        padding: 0.5rem 1.5rem;
+
+    }
+
+    .TabPanelDiv {
+        width: 100%;
+        padding: 2rem 1.2rem;
+        margin-left: 0rem;
+
+    }
+
+}
