@@ -135,6 +135,12 @@
 
   .about__content p {
     margin: 1.5rem 0;
+    text-align: start;
+  }
+
+  .about__content .fewtechnologies {
+    text-align: center;
+
   }
 
   .techno {

@@ -7,8 +7,8 @@
   backdrop-filter: blur(15px);
   box-shadow: 0 0 2px #1f1f38;
   padding: 0.4rem;
-  position: sticky;
-  top: 0;
+  position: sticky !important;
+  top: 0 !important;
   z-index: 9999;
 
 }
