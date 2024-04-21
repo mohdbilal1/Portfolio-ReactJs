@@ -7,7 +7,7 @@ import { MdOutlineMenu } from "react-icons/md";
 
 
 const TopHeader = () => {
-    const [navActive, setNavActive] = useState("#");
+    const [navActive, setNavActive] = useState("/");
 
     const [openSide, setOpenSide] = useState(false);
 
@@ -25,9 +25,9 @@ const TopHeader = () => {
                         <SideBar setOpenSide={setOpenSide} />
                     </Drawer>
                 </div>
-                <a href="#"
-                    className={navActive === "#" ? "active" : ""}
-                    onClick={() => setNavActive("#")}
+                <a href="/"
+                    className={navActive === "/" ? "active" : ""}
+                    onClick={() => setNavActive("/")}
                 >
                     <img className="logo" src={Logo} alt='Logo' />
                 </a>
@@ -35,8 +35,8 @@ const TopHeader = () => {
                     <ul className="liauto">
                         <li>
                             <a
-                                onClick={() => setNavActive("#")}
-                                className={navActive === "#" ? "active" : ""}
+                                onClick={() => setNavActive("/")}
+                                className={navActive === "/" ? "active" : ""}
                                 href="/"
                             >
                                 Home
@@ -45,16 +45,16 @@ const TopHeader = () => {
                         <li>
                             <a
                                 href="/about"
-                                onClick={() => setNavActive("#about")}
-                                className={navActive === "#about" ? "active" : ""}
+                                onClick={() => setNavActive("/about")}
+                                className={navActive === "/about" ? "active" : ""}
                             >
                                 About
                             </a>
                         </li>
                         <li>
                             <a
-                                onClick={() => setNavActive("#experience")}
-                                className={navActive === "#experience" ? "active" : ""}
+                                onClick={() => setNavActive("/experience")}
+                                className={navActive === "/experience" ? "active" : ""}
                                 href="/experience"
                             >
                                 Skills
@@ -62,8 +62,8 @@ const TopHeader = () => {
                         </li>
                         <li>
                             <a
-                                onClick={() => setNavActive("#portfolio")}
-                                className={navActive === "#portfolio" ? "active" : ""}
+                                onClick={() => setNavActive("/portfolio")}
+                                className={navActive === "/portfolio" ? "active" : ""}
                                 href="/portfolio"
                             >
                                 Projects
@@ -72,16 +72,16 @@ const TopHeader = () => {
                         <li>
                             <a
                                 href="/blogs"
-                                onClick={() => setNavActive("#blogs")}
-                                className={navActive === "#blogs" ? "active" : ""}
+                                onClick={() => setNavActive("/blogs")}
+                                className={navActive === "/blogs" ? "active" : ""}
                             >
                                 Blogs
                             </a>
                         </li>
                         <li>
                             <a
-                                onClick={() => setNavActive("#contact")}
-                                className={navActive === "#contact" ? "active" : ""}
+                                onClick={() => setNavActive("/contact")}
+                                className={navActive === "/contact" ? "active" : ""}
                                 href="/contact"
                             >
                                 Contact
