@@ -1,5 +1,4 @@
 import CV from "../../assets/Bilal-Resume-new.pdf";
-import { MdWhatsapp } from "react-icons/md";
 
 const CTA = () => {
 
