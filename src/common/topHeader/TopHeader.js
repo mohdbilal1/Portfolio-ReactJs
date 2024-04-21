@@ -37,14 +37,14 @@ const TopHeader = () => {
                             <a
                                 onClick={() => setNavActive("#")}
                                 className={navActive === "#" ? "active" : ""}
-                                href="#"
+                                href="/"
                             >
                                 Home
                             </a>
                         </li>
                         <li>
                             <a
-                                href="#about"
+                                href="/about"
                                 onClick={() => setNavActive("#about")}
                                 className={navActive === "#about" ? "active" : ""}
                             >
@@ -55,7 +55,7 @@ const TopHeader = () => {
                             <a
                                 onClick={() => setNavActive("#experience")}
                                 className={navActive === "#experience" ? "active" : ""}
-                                href="#experience"
+                                href="/experience"
                             >
                                 Skills
                             </a>
@@ -64,14 +64,14 @@ const TopHeader = () => {
                             <a
                                 onClick={() => setNavActive("#portfolio")}
                                 className={navActive === "#portfolio" ? "active" : ""}
-                                href="#portfolio"
+                                href="/portfolio"
                             >
                                 Projects
                             </a>
                         </li>
                         <li>
                             <a
-                                href="#blogs"
+                                href="/blogs"
                                 onClick={() => setNavActive("#blogs")}
                                 className={navActive === "#blogs" ? "active" : ""}
                             >
@@ -82,7 +82,7 @@ const TopHeader = () => {
                             <a
                                 onClick={() => setNavActive("#contact")}
                                 className={navActive === "#contact" ? "active" : ""}
-                                href="#contact"
+                                href="/contact"
                             >
                                 Contact
                             </a>
