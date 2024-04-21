@@ -6,13 +6,13 @@ const HeaderSocials=()=> {
 
     return (
       <div className="header__socials">
-        <a href="https://www.linkedin.com/in/mohd-bilal1/" target="_blank">
+        <a href="https://www.linkedin.com/in/mohd-bilal1/" target="">
           <BsLinkedin />
         </a>
-        <a href="https://github.com/mohdbilal1" target="_blank">
+        <a href="https://github.com/mohdbilal1" target="">
           <FaGithub />
         </a>
-        {/* <a href="https://dribble.com" target="_blank">
+        {/* <a href="https://dribble.com" target="">
           <FiDribbble />
         </a> */}
       </div>
