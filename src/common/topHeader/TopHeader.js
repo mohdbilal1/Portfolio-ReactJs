@@ -13,8 +13,9 @@ const TopHeader = () => {
     const [openSide, setOpenSide] = useState(false);
 
     const toggleDrawer = (newOpen) => () => {
-      setOpenSide(newOpen);
+        setOpenSide(newOpen);
     };
+
 
     return (
         <>
@@ -22,12 +23,15 @@ const TopHeader = () => {
                 <div className='heading-div-mobile'>
                     <Button onClick={toggleDrawer(true)}><MdOutlineMenu className=' fs-1textwhite' /></Button>
                     <Drawer open={openSide} onClose={toggleDrawer(false)}>
-                        <SideBar setOpenSide={setOpenSide}/>
+                        <SideBar setOpenSide={setOpenSide} />
                     </Drawer>
                 </div>
-                <Link href="#home">
+                <a href="#"
+                    className={navActive === "#" ? "active" : ""}
+                    onClick={() => setNavActive("#")}
+                >
                     <img className="logo" src={Logo} alt='Logo' />
-                </Link>
+                </a>
                 <Box className='rightUL'>
                     <ul className="liauto">
                         <li>

@@ -6,7 +6,7 @@ import styled from "styled-components";
 const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
-  top: 22rem;
+  top: 20rem;
   z-index: 1;
   margin-top: -125px;
   text-align: center;
@@ -38,7 +38,7 @@ const MyTitleMessage = styled.h1`
   }
 
   @media (max-width: 767px) {
-    top: 14rem;
+    top: 16rem;
     div {
       .main {
         font-size: 18px;
@@ -52,7 +52,7 @@ const MyTitleMessage = styled.h1`
 
 const TitleMessage = () => (
   <MyTitleMessage>
-    <div className="titleMessage">
+    <div className="titleMessage" data-aos="zoom-in" data-aos-duration="2000">
       <div className="heading">
         <div className="main text-center mb-3">
           Welcome,
