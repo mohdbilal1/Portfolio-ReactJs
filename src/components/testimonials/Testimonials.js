@@ -4,7 +4,7 @@ import AVTR2 from "../../assets/b12.jpg";
 import AVTR3 from "../../assets/b6.jpg";
 import AVTR4 from "../../assets/b4.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from 'swiper/modules';
+import { Pagination } from 'swiper/modules';
 // import Swiper and modules styles
 import 'swiper/css';
 import 'swiper/css/navigation';

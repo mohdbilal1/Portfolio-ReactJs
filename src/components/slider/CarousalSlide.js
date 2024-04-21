@@ -5,7 +5,7 @@ import  Slide3  from "../../assets/slide3.webp";
 
 // import "./testimonials.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation,Autoplay, Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 // import Swiper and modules styles
 import 'swiper/css';
 import 'swiper/css/navigation';
