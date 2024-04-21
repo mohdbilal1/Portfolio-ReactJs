@@ -7,7 +7,7 @@ import { MdOutlineMenu } from "react-icons/md";
 
 
 const TopHeader = () => {
-    const [navActive, setNavActive] = useState("/");
+    const [navActive, setNavActive] = useState("#");
 
     const [openSide, setOpenSide] = useState(false);
 

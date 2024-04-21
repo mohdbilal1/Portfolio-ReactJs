@@ -31,7 +31,7 @@ const SideBar = () => {
 
   return (
     <>
-      <div id="main-div" data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine">
+      <div id="main-div" data-aos="fade-right"  data-aos-duration="500" data-aos-easing="ease-in-sine">
         <ProSidebar
           style={{ height: "100%", position: "absolute" }}
         >

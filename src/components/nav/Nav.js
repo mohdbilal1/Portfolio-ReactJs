@@ -10,43 +10,45 @@ const Nav = () => {
   const [active, setActive] = useState("#");
 
   return (
-    <nav className="navBox">
-      <a
-        onClick={() => setActive("/")}
-        className={active === "/" ? "active" : ""}
-        href="/"
-      >
-        <AiOutlineHome />
-      </a>
-      <a
-        onClick={() => setActive("#about")}
-        className={active === "#about" ? "active" : ""}
-        href="#about"
-      >
-        <AiOutlineUser />
-      </a>
-      <a
-        onClick={() => setActive("#experience")}
-        className={active === "#experience" ? "active" : ""}
-        href="#experience"
-      >
-        <BiBook />
-      </a>
-      <a
-        onClick={() => setActive("#portfolio")}
-        className={active === "#portfolio" ? "active" : ""}
-        href="#portfolio"
-      >
-        <SiBento />
-      </a>
-      <a
-        onClick={() => setActive("#contact")}
-        className={active === "#contact" ? "active" : ""}
-        href="#contact"
-      >
-        <BiMessageSquareDetail />
-      </a>
-    </nav>
+    <div className="nvbarDiv">
+      <nav className="navBox">
+        <a
+          onClick={() => setActive("/")}
+          className={active === "/" ? "active" : ""}
+          href="/"
+        >
+          <AiOutlineHome />
+        </a>
+        <a
+          onClick={() => setActive("#about")}
+          className={active === "#about" ? "active" : ""}
+          href="#about"
+        >
+          <AiOutlineUser />
+        </a>
+        <a
+          onClick={() => setActive("#experience")}
+          className={active === "#experience" ? "active" : ""}
+          href="#experience"
+        >
+          <BiBook />
+        </a>
+        <a
+          onClick={() => setActive("#portfolio")}
+          className={active === "#portfolio" ? "active" : ""}
+          href="#portfolio"
+        >
+          <SiBento />
+        </a>
+        <a
+          onClick={() => setActive("#contact")}
+          className={active === "#contact" ? "active" : ""}
+          href="#contact"
+        >
+          <BiMessageSquareDetail />
+        </a>
+      </nav>
+    </div>
   );
 };
 

@@ -1,3 +1,7 @@
+.nvbarDiv{
+  display: flex;
+  justify-content: center;
+}
 .navBox {
   background: rgba(0, 0, 0, 0.3);
   width: max-content;
@@ -5,8 +9,8 @@
   z-index: 2;
   position: fixed;
   bottom: 2rem;
-  left: calc(50%);
-  transform: translateX(-50%);
+  /* left: calc(50%); */
+  /* transform: translateX(-50%); */
   display: flex;
   gap: 0.8rem;
   border-radius: 3rem;
@@ -33,7 +37,8 @@
 
 @media screen and (max-width: 767px) {
   .navBox {
-    left: calc(45%);
-
+    /* left: calc(50%); */
+    width: 65%;
+    justify-content: space-evenly;
   }
 }

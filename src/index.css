@@ -89,20 +89,20 @@ img {
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .container {
     width:86%;
   }
   section {
     margin-top: 6rem;
   }
-}
+} */
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ============= */
 
 @media screen and (max-width: 767px) {
   .container {
-    width:86%;
+    width:100%;
   }
   section > h2 {
     margin-bottom: 2rem;
