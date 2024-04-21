@@ -15,19 +15,10 @@ import "./sideBar.css"
 //import icons from react icons
 import { MdEventNote } from "react-icons/md";
 import { Link } from "react-router-dom";
-import { useState } from "react";
-import { IoPeople } from "react-icons/io5";
-import { GiSharpedTeethSkull } from "react-icons/gi";
 import { GoHome } from "react-icons/go";
-import { TbCards } from "react-icons/tb";
-import { MdBookmarkBorder } from "react-icons/md";
-import { TbBrandStackshare } from "react-icons/tb";
 import { GoGift } from "react-icons/go";
 import { SlLock } from "react-icons/sl";
-import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
-import { GoLink } from "react-icons/go";
-import { PiRowsBold } from "react-icons/pi";
-import Logo from "../../assets/mb.jpg";
+// import Logo from "../../assets/mb.jpg";
 // import { MdBackspace } from "react-icons/md";
 import { TfiUser } from "react-icons/tfi";
 import { BiMessageSquareDetail } from "react-icons/bi";
