@@ -57,21 +57,26 @@ textarea {
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ============= */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-}
+} */
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ============= */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .contact__container {
-    width: 90%;
+    width: 86%;
+    display: block;
   }
 
   input,
   textarea {
-    width: 90%;
+    width: 86%;
   }
+  
+form {
+ margin-top: 2rem;
+}
 }

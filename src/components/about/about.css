@@ -109,6 +109,10 @@
   } */
 /* ================ MEDIA QUERIES (SMALL DEVICES) ============= */
 @media screen and (max-width: 767px) {
+  #about {
+    margin-top: 4rem;
+  }
+
   .about__container {
     display: block;
     /* grid-template-columns: 35% 50%; */
@@ -125,20 +129,22 @@
   }
 
   .about__content {
-    width: 98%;
+    width: 90%;
     text-align: center;
   }
 
   .about__content p {
     margin: 1.5rem 0;
   }
+
   .techno {
     justify-content: space-between;
   }
+
   .techno li {
     width: 7.8rem;
     margin: 0.2rem;
-    color: rgba(255, 255, 255, 0.6);  
+    color: rgba(255, 255, 255, 0.6);
     text-align: start;
 
   }
