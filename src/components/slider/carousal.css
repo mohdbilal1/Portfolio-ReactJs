@@ -16,10 +16,10 @@
 
 @media only screen and (max-width: 767px) {
     #BoxId {
-        width: 100%;
+        width: 86%;
     }
     .custom-img img {
-        width: 100%;
+        width: 86%;
         height: 15rem;
         margin: 0;
     }
