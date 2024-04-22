@@ -6,8 +6,8 @@ import Services from "../components/services/Services";
 import Portfolio from "../components/portfolio/Portfolio";
 import Testimonials from "../components/testimonials/Testimonials";
 import Contact from "../components/contact/Contact";
-import Footer from "../components/footer/Footer";
-import TopHeader from "../common/topHeader/TopHeader";
+// import Footer from "../components/footer/Footer";
+// import TopHeader from "../common/topHeader/TopHeader";
 import CarousalSlide from "../components/slider/CarousalSlide";
 import TitleMessage from "../components/titleMessage/TitleMessage";
 import WhereiHaveWorked from "../components/whereIhaveWorked/WhereiHaveWorked";
@@ -16,7 +16,7 @@ import WhereiHaveWorked from "../components/whereIhaveWorked/WhereiHaveWorked";
 const Home = () => {
     return (
         <>
-            <TopHeader />
+            {/* <TopHeader /> */}
             <CarousalSlide />
             <TitleMessage />
             <Header />
@@ -28,7 +28,7 @@ const Home = () => {
             <Portfolio />
             <Testimonials />
             <Contact />
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }

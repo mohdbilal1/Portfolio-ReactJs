@@ -4,8 +4,8 @@
   
   .icon-position{
     position: fixed;
-    bottom: 40px;
-    right: 25px;
+    bottom: 3rem;
+    right: 2rem;
     z-index: 20;
   }
   
@@ -29,8 +29,9 @@
   @media screen and (max-width: 767px) {
     .icon-position{
         position: fixed;
-        bottom: 20%;
-        right: 15px;
+        bottom: 25%;
+        right: 1.3rem;
         z-index: 20;
       }
+    
   }

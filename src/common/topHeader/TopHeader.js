@@ -4,10 +4,11 @@ import "./topHeader.css";
 import { Box, Button, Drawer } from '@mui/material';
 import SideBar from '../sidebar/SideBar';
 import { MdOutlineMenu } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 
 const TopHeader = () => {
-    const [navActive, setNavActive] = useState("#");
+    const [navActive, setNavActive] = useState("/");
 
     const [openSide, setOpenSide] = useState(false);
 
@@ -25,68 +26,68 @@ const TopHeader = () => {
                         <SideBar setOpenSide={setOpenSide} />
                     </Drawer>
                 </div>
-                <a href="/"
+                <Link to="/"
                     className={navActive === "/" ? "active" : ""}
                     onClick={() => setNavActive("/")}
                 >
                     <img className="logo" src={Logo} alt='Logo' />
-                </a>
+                </Link>
                 
                 <Box className='rightUL'>
                     <ul className="liauto">
                         <li>
-                            <a
+                            <Link
                                 onClick={() => setNavActive("/")}
                                 className={navActive === "/" ? "active" : ""}
-                                href="/"
+                                to="/"
                             >
                                 Home
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                href="#about"
-                                onClick={() => setNavActive("#about")}
-                                className={navActive === "#about" ? "active" : ""}
+                            <Link
+                                to="/about"
+                                onClick={() => setNavActive("/about")}
+                                className={navActive === "/about" ? "active" : ""}
                             >
                                 About
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                onClick={() => setNavActive("#experience")}
-                                className={navActive === "#experience" ? "active" : ""}
-                                href="#experience"
+                            <Link
+                                onClick={() => setNavActive("/skills")}
+                                className={navActive === "/skills" ? "active" : ""}
+                                to="/skills"
                             >
                                 Skills
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                onClick={() => setNavActive("#portfolio")}
-                                className={navActive === "#portfolio" ? "active" : ""}
-                                href="#portfolio"
+                            <Link
+                                onClick={() => setNavActive("/projects")}
+                                className={navActive === "/projects" ? "active" : ""}
+                                to="/projects"
                             >
                                 Projects
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                href="#blogs"
-                                onClick={() => setNavActive("#blogs")}
-                                className={navActive === "#blogs" ? "active" : ""}
+                            <Link
+                                to="/blogs"
+                                onClick={() => setNavActive("/blogs")}
+                                className={navActive === "/blogs" ? "active" : ""}
                             >
                                 Blogs
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
-                                onClick={() => setNavActive("#contact")}
-                                className={navActive === "#contact" ? "active" : ""}
-                                href="#contact"
+                            <Link
+                                onClick={() => setNavActive("/contact")}
+                                className={navActive === "/contact" ? "active" : ""}
+                                to="/contact"
                             >
                                 Contact
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </Box>

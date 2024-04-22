@@ -45,20 +45,24 @@ const SideBar = () => {
 
                 <MenuItem icon={<GoHome />}> Home <Link to={'/'} /></MenuItem>
 
-                <MenuItem icon={<TfiUser />}>About<Link to={'/about'} /></MenuItem>
+                <MenuItem icon={<TfiUser />}>About<Link to={'about'} /></MenuItem>
 
-                <MenuItem icon={<GiSkills />}>Skills<Link to={'/Skills'} /></MenuItem>
+                <MenuItem icon={<GiSkills />}>Skills<Link to={'/skills'} /></MenuItem>
 
-                <MenuItem icon={<SiBento />}>Projects <Link to={'/Projects'} /></MenuItem>
+                <MenuItem icon={<SiBento />}>Projects <Link to={'/projects'} /></MenuItem>
 
                 <SubMenu title="Check Out" icon={<GoGift />}>
-                  <MenuItem icon={<MdEventNote />}>Youtube<Link to="/" /></MenuItem>
-                  <MenuItem icon={<MdEventNote />}>Facebook <Link to="/" /></MenuItem>
+                  <MenuItem icon={<MdEventNote />}>Github<Link to="/" /></MenuItem>
+                  <MenuItem icon={<MdEventNote />}>LinkedIn <Link to="/" /></MenuItem>
+                  <MenuItem icon={<MdEventNote />}>TwitterX <Link to="/" /></MenuItem>
+                  <MenuItem icon={<MdEventNote />}>Youtube <Link to="/" /></MenuItem>
                 </SubMenu>
 
-                <MenuItem icon={<CgWebsite />}>Blogs<Link to={'/Blogs'} /></MenuItem>
+                <MenuItem icon={<CgWebsite />}>Blogs<Link to={'/blogs'} /></MenuItem>
+                <MenuItem icon={<CgWebsite />}>Testimonials<Link to={'/testimonials'} /></MenuItem>
+                <MenuItem icon={<CgWebsite />}>Services<Link to={'/services'} /></MenuItem>
 
-                <MenuItem icon={<BiMessageSquareDetail />}>Contact<Link to={'/'} /></MenuItem>
+                <MenuItem icon={<BiMessageSquareDetail />}>Contact<Link to={'/contact'} /></MenuItem>
 
 
                 <MenuItem icon={<SlLock />}>Logout <Link to={'/'} /></MenuItem>

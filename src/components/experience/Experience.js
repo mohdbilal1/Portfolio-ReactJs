@@ -8,8 +8,8 @@ const Experience = () => {
       <section id="experience">
         <h5>What Skills I Have</h5>
         <h2>My Experiences</h2>
-        <div className="container experience__container">
-          <div className="experience__frontend" data-aos="fade-up-right" data-aos-duration="2000">
+        <div className="container experience__container" data-aos="zoom-in" data-aos-duration="1000">
+          <div className="experience__frontend" >
             <h3>Frontend Development</h3>
             <div className="experience__content">
               <article className="experience__details">
@@ -56,7 +56,7 @@ const Experience = () => {
               </article>
             </div>
           </div>
-          <div className="experience__backend" data-aos="fade-down-left" data-aos-duration="2000">
+          <div className="experience__backend">
             <h3>Backend Development</h3>
             <div className="experience__content">
               <article className="experience__details">

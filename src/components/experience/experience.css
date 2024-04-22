@@ -52,14 +52,20 @@
   } */
   /* ================ MEDIA QUERIES (SMALL DEVICES) ============= */
   @media screen and (max-width: 767px) {
+    #experience{
+      width: 100%;
+    }
     .experience__container {
       gap: 1rem;
       display: block;
     }
+    .experience__container {
+      gap: 1rem;
+    }
     .experience__container > div {
       width: 86%;
       padding: 2rem 1rem;
-      margin: 20px 0;
+      margin: 1.2rem 0;
     }
   }
   

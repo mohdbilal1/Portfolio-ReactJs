@@ -1,0 +1,38 @@
+.blogBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 24rem;
+}
+.blogBox h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.blogBox button{
+    background-color: #4db5ff;
+    color: black;
+    margin: 1.5rem 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+.blogBox button:hover{
+    background-color: #4db5ff;
+    color: black;
+}
+.blogBox button .fs3me1{
+    font-size: 1.2rem;
+    margin-right: 0.4rem;
+    padding-bottom: 0.1rem;
+}
+
+@media screen and (max-width: 767px) {
+    .blogBox h1{
+        font-size: 1.5rem;
+        margin: 0 2rem;
+        text-align: center;
+    }
+}

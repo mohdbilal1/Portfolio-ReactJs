@@ -16,25 +16,25 @@ const Footer = () => {
             </div>
             <ul className="permalinks">
                 <li>
-                    <a href="/">Home</a>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="#about">About</a>
+                    <Link to="/about">About</Link>
                 </li>
                 <li>
-                    <a href="#experience">Experience</a>
+                    <Link to="/skills">Skills</Link>
                 </li>
                 <li>
-                    <a href="#services">Services</a>
+                    <Link to="/services">Services</Link>
                 </li>
                 <li>
-                    <a href="#portfolio">Portfolio</a>
+                    <Link to="/projects">Projects</Link>
                 </li>
                 <li>
-                    <a href="#testimonials">Testimonials</a>
+                    <Link to="/testimonials">Testimonials</Link>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <Link to="/contact">Contact</Link>
                 </li>
             </ul>
             <div className="footer__social">

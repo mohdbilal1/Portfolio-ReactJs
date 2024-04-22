@@ -23,9 +23,9 @@
 }
 
 .topHeader .logo {
-  width: 5rem;
+  width: 4rem;
   margin-left: 34px;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
 }
 
 .topHeader .liauto {
