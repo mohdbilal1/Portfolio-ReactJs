@@ -29,7 +29,7 @@
   @media screen and (max-width: 767px) {
     .icon-position{
         position: fixed;
-        bottom: 25%;
+        bottom: 22%;
         right: 1.3rem;
         z-index: 20;
       }
