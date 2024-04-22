@@ -98,31 +98,32 @@
     }
 
     .tabsBox .tabs .left-tabs {
-        width: 90%;
+        width: 95%;
         overflow-x: scroll;
     }
 
     .tabsBox .tabs .MuiTabsList-root {
         display: flex;
-        width: 90%;
+        width: 95%;
         overflow-x: scroll;
+        white-space: nowrap;
         margin: 0 1.2rem;
         border-bottom:2px solid #f4faff;
 
     }
 
     .mange-tab2 {
-        width: 9rem !important;
+        flex:0 0 10rem;
         border:2px solid #f4faff;
         margin: 0.02rem 0.5rem;
         border-radius: 0.2rem;
-        padding: 0.5rem 1.5rem;
+        padding: 1rem;
 
     }
 
     .TabPanelDiv {
         width: 90%;
-        padding: 2rem 1.2rem;
+        padding: 2rem 0.8rem;
         margin-left: 0rem;
 
     }

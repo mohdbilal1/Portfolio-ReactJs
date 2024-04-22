@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const MyTitleMessage = styled.h1`
   position: absolute;
-  width: 100%;
+  width: 99.5%;
   top: 20rem;
   z-index: 1;
   margin-top: -125px;
@@ -39,6 +39,7 @@ const MyTitleMessage = styled.h1`
 
   @media (max-width: 767px) {
     top: 16rem;
+    width: 98%;
     div {
       .main {
         font-size: 18px;

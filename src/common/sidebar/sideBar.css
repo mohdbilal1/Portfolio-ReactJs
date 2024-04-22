@@ -43,15 +43,15 @@
 .pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item{
     /* background-color: #f3f0f8 !important; */
     font-weight: 300 !important;
+    background-color: #262639;
+    background-image:url('../../assets/bg-texture.png');
 }
+
 .pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item .pro-item-content{
     font-weight: 400 !important;
     font-size: 14px !important;
 }
-.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item{
-    background-color: #262639;
-    background-image:url('../../assets/bg-texture.png');
-}
+
 
 
 .pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:focus{

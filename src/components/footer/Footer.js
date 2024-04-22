@@ -1,5 +1,5 @@
 
-import { IoLogoTwitter,IoLogoFacebook, IoLogoInstagram,IoLogoYoutube} from "react-icons/io";
+import { IoLogoTwitter,IoLogoYoutube} from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import "./footer.css";
@@ -43,12 +43,6 @@ const Footer = () => {
                 </Link>
                 <Link to="https://github.com/mohdbilal1" target="_blank">
                     <FaGithub />
-                </Link>
-                <Link to="https://www.facebook.com/" target="_blank">
-                    <IoLogoFacebook />
-                </Link>
-                <Link to="https://instagram.com/" target="_blank">
-                    <IoLogoInstagram />
                 </Link>
                 <Link to="https://twitter.com" target="_blank">
                     <IoLogoTwitter />

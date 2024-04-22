@@ -36,26 +36,26 @@ const About = () => {
               <small>5+ Completed Projects</small>
             </article>
           </div>
-          
+
           <p>
-          Hello! My name is Mohd Bilal, and I am a passionate software engineer and problem solver, dedicated to creating impactful codes that thrive on the internet.  
-          I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products. currently learning NextJs.
+            Hello! My name is Mohd Bilal, and I am a passionate software engineer and problem solver, dedicated to creating impactful codes that thrive on the internet.
+            I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products. currently learning NextJs.
           </p>
 
           <p className="fewtechnologies">Here are a few technologies I've been working with recently :</p>
           <ul className="techno">
-            <li><IoMdArrowDropright/> ReactJs</li>
-            <li><IoMdArrowDropright/> JavaScript</li>
-            <li><IoMdArrowDropright/> Node.js</li>
-            <li><IoMdArrowDropright/> HTML/CSS</li>
-            <li><IoMdArrowDropright/> Bootstrap</li>
-            <li><IoMdArrowDropright/> Tailwind CSS</li>
-            <li><IoMdArrowDropright/> ExpressJs</li>
-            <li><IoMdArrowDropright/> MongoDB</li>
-            <li><IoMdArrowDropright/> Material UI</li>
-            <li><IoMdArrowDropright/> Next.js</li>
+            <li><IoMdArrowDropright /> ReactJs</li>
+            <li><IoMdArrowDropright /> JavaScript</li>
+            <li><IoMdArrowDropright /> Node.js</li>
+            <li><IoMdArrowDropright /> HTML/CSS</li>
+            <li><IoMdArrowDropright /> Bootstrap</li>
+            <li><IoMdArrowDropright /> Tailwind CSS</li>
+            <li><IoMdArrowDropright /> ExpressJs</li>
+            <li><IoMdArrowDropright /> MongoDB</li>
+            <li><IoMdArrowDropright /> Material UI</li>
+            <li><IoMdArrowDropright /> Next.js</li>
           </ul>
-          
+
         </div>
       </div>
     </section>
