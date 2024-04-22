@@ -115,17 +115,19 @@
     .mange-tab2 {
         flex:0 0 10rem;
         border:2px solid #f4faff;
-        margin: 0.02rem 0.5rem;
         border-radius: 0.2rem;
         padding: 1rem;
 
     }
+    .mange-tab2:not(:last-child){
+        margin: 0.02rem 1rem 0.02rem 0;
+    }
 
     .TabPanelDiv {
-        width: 90%;
+        width: 95%;
         padding: 2rem 0.8rem;
         margin-left: 0rem;
 
     }
-
+    
 }
