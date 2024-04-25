@@ -1,53 +1,46 @@
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
+import IMG1 from "../../assets/alibada.png";
+import IMG2 from "../../assets/portfolioImage.png";
+import IMG3 from "../../assets/indmart.png";
+import IMG4 from "../../assets/eximge.png";
+import IMG5 from "../../assets/foodreastaurent.png";
 import IMG6 from "../../assets/portfolio6.jpg";
 
 const data = [
     {
         id: 1,
         image: IMG1,
-        title: "Crypto Currency Dashboard & Financial Visualization",
-        github: "https://github.com/mohdbilal1",
-        demo: "https://www.marxgroupworldwide.com/"
+        title: "Abaris Global Products - Abaris B2B Wholesale (Alibab-dummy)",
+        github: "https://github.com/mohdbilal1/Ali-baba",
+        demo: "https://alibab-dummy-123.netlify.app/"
     },
     {
         id: 2,
         image: IMG2,
-        title: "Crypto Currency Dashboard & Financial Visualization",
-        github: "https://github.com/mohdbilal1",
-        demo: "https://www.marxgroupworldwide.com/"
+        title: "Portfolio Web Application Built Using ExpressJs, EJS, and MongoDB",
+        github: "https://github.com/mohdbilal1/MyPortfolio-ExpressJs",
+        demo: "https://myportfolio.cyclic.app/"
     },
     {
         id: 3,
         image: IMG3,
-        title: "Crypto Currency Dashboard & Financial Visualization",
-        github: "https://github.com/mohdbilal1",
-        demo: "https://www.marxgroupworldwide.com/"
+        title: "A IndiaMart-Dummy Web Application Built Using ReactJs and Material UI.",
+        github: "https://github.com/mohdbilal1/Indiamart-Dummy",
+        demo: "https://stellar-indiamart-dummy.netlify.app/"
     },
     {
         id: 4,
         image: IMG4,
-        title: "Crypto Currency Dashboard & Financial Visualization",
-        github: "https://github.com/mohdbilal1",
-        demo: "https://www.marxgroupworldwide.com/"
+        title: "EXIM Businesses Around the World Dummy Web Application Built Using ReactJs and Material UI",
+        github: "https://github.com/mohdbilal1//ex-im",
+        demo: "https://exim-business.netlify.app/"
     },
     {
         id: 5,
         image: IMG5,
-        title: "Crypto Currency Dashboard & Financial Visualization",
-        github: "https://github.com/mohdbilal1",
-        demo: "https://www.marxgroupworldwide.com/"
-    },
-    {
-        id: 6,
-        image: IMG6,
-        title: "CryptCurrency Dashboard & Financial Visualization",
-        github: "https://github.com/mohdbilal1",
-        demo: "https://www.marxgroupworldwide.com/"
+        title: "Food Oder Resturant Web Application Built Using ReactJs and Material UI",
+        github: "https://github.com/mohdbilal1/foodResturant-Website-ReactJS-MUI",
+        demo: "https://foodyfoody.netlify.app/"
     }
 ];
 
