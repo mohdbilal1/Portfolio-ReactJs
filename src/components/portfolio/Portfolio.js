@@ -4,7 +4,6 @@ import IMG2 from "../../assets/portfolioImage.png";
 import IMG3 from "../../assets/indmart.png";
 import IMG4 from "../../assets/eximge.png";
 import IMG5 from "../../assets/foodreastaurent.png";
-import IMG6 from "../../assets/portfolio6.jpg";
 
 const data = [
     {
