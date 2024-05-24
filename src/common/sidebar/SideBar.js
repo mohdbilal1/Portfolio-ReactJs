@@ -17,7 +17,7 @@ import { MdEventNote } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { GoHome } from "react-icons/go";
 import { GoGift } from "react-icons/go";
-import { SlLock } from "react-icons/sl";
+// import { SlLock } from "react-icons/sl";
 // import Logo from "../../assets/mb.jpg";
 // import { MdBackspace } from "react-icons/md";
 import { TfiUser } from "react-icons/tfi";
