@@ -1,5 +1,5 @@
 
-import ME from "../../assets/b5.JPG";
+import ME from "../../assets/b444.png";
 import { BsAwardFill } from "react-icons/bs";
 import { FiUsers } from "react-icons/fi";
 import { FaProjectDiagram } from "react-icons/fa";

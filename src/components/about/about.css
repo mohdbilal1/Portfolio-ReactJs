@@ -20,6 +20,7 @@
   overflow: hidden;
   transform: rotate(10deg);
   transition: all 400ms ease;
+
 }
 
 .about__me-image:hover {
@@ -110,7 +111,7 @@
 /* ================ MEDIA QUERIES (SMALL DEVICES) ============= */
 @media screen and (max-width: 767px) {
   #about {
-    margin-top: 4rem;
+    margin-top: -4rem;
   }
 
   .about__container {
