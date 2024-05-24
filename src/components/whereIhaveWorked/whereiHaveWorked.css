@@ -125,9 +125,12 @@
 
     .TabPanelDiv {
         width: 95%;
-        padding: 2rem 0.8rem;
+        padding: 2rem 0.5rem;
         margin-left: 0rem;
 
+    }
+    .TabPanel-content h1 {
+        margin: 0;
     }
     
 }

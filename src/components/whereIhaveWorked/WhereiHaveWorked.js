@@ -33,10 +33,10 @@ const WhereiHaveWorked = () => {
                     <div className="left-tabs">
                         <TabsList>
                             <Tab style={value === 0 ? { ...mangeTabActive } : {}} className='mange-tab2' value={0}>Abaris SoftTech</Tab>
-                            <Tab style={value === 1 ? { ...mangeTabActive } : {}} className='mange-tab2' value={1}>Abaris SoftTech</Tab>
-                            <Tab style={value === 2 ? { ...mangeTabActive } : {}} className='mange-tab2' value={2}> Abaris SoftTech</Tab>
-                            <Tab style={value === 3 ? { ...mangeTabActive } : {}} className='mange-tab2' value={3}>Abaris SoftTech </Tab>
-                            <Tab style={value === 4 ? { ...mangeTabActive } : {}} className='mange-tab2' value={4}>Abaris SoftTech</Tab>
+                            <Tab style={value === 1 ? { ...mangeTabActive } : {}} className='mange-tab2' value={1}>---- </Tab>
+                            <Tab style={value === 2 ? { ...mangeTabActive } : {}} className='mange-tab2' value={2}> ---- </Tab>
+                            <Tab style={value === 3 ? { ...mangeTabActive } : {}} className='mange-tab2' value={3}>----  </Tab>
+                            <Tab style={value === 4 ? { ...mangeTabActive } : {}} className='mange-tab2' value={4}>---- </Tab>
                         </TabsList>
                     </div>
                     <div className="TabPanelDiv">

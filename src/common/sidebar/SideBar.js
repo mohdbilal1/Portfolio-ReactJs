@@ -65,7 +65,7 @@ const SideBar = () => {
                 <MenuItem icon={<BiMessageSquareDetail />}>Contact<Link to={'/contact'} /></MenuItem>
 
 
-                <MenuItem icon={<SlLock />}>Logout <Link to={'/'} /></MenuItem>
+                {/* <MenuItem icon={<SlLock />}>Logout <Link to={'/'} /></MenuItem> */}
 
               </Menu>
             </SidebarContent>
