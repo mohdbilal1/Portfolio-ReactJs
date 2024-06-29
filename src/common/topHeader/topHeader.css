@@ -1,3 +1,36 @@
+.top_contactdiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3e3e7d;
+  /* background-color: #27292d; */
+  padding: 6px 20px;
+}
+.top_contactdiv div ul{
+  display: flex;
+  align-items: center;
+}
+.top_contactdiv div ul li{
+  display: flex;
+  align-items: center;
+  margin:0 10px;
+
+}
+.top_contactdiv div ul li a{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  color:  white !important;
+
+}
+.top_contactdiv div ul li .fs5{
+  margin-right: 6px;
+  font-size: 20px;
+
+}
+.top_contactdiv div ul li .fs3{
+  font-size: 24px;
+}
 .topHeader {
   width: 99%;
   display: flex;
@@ -66,6 +99,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .top_contactdiv{
+    display: none;
+  }
+ 
   .topHeader {
     z-index: 2;
     width: 100%;

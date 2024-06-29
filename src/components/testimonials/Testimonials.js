@@ -20,21 +20,35 @@ const data = [
         image: AVTR1
     },
     {
-        id: 1,
+        id: 2,
         name: "Mohd Bilal",
         review:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt enim ipsam debitis vel?",
         image: AVTR2
     },
     {
-        id: 1,
+        id: 3,
         name: "Mohd Bilal",
         review:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt enim ipsam debitis vel?",
         image: AVTR3
     },
     {
-        id: 1,
+        id: 4,
+        name: "Mohd Bilal",
+        review:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt enim ipsam debitis vel?",
+        image: AVTR4
+    },
+    {
+        id: 5,
+        name: "Mohd Bilal",
+        review:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt enim ipsam debitis vel?",
+        image: AVTR4
+    },
+    {
+        id: 6,
         name: "Mohd Bilal",
         review:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt enim ipsam debitis vel?",
@@ -47,12 +61,24 @@ const Testimonials = () => {
             <h5>Review from clients</h5>
             <h2>Testimonials</h2>
             <Swiper
-                centeredSlides={true}
-                spaceBetween={0}
-                slidesPerView={1}
+                centeredSlides={false}
                 pagination={{ clickable: true }}
                 modules={[Pagination]}
                 className="container testimonials__container"
+                breakpoints={{
+                    370: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
+                    786: {
+                        slidesPerView: 2,
+                        spaceBetween: 40,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 50,
+                    },
+                }}
             >
                 {data.map(({ id, name, review, image }) => {
                     return (
@@ -61,12 +87,7 @@ const Testimonials = () => {
                                 <img src={image} alt="" />
                             </div>
                             <h5 className="client__name">{name}</h5>
-                            <small className="client__review">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                                est autem exercitationem libero culpa ipsam fugit praesentium,
-                                aliquid quas sint harum cumque similique sapiente commodi
-                                magni facere ut illo! Laboriosam!
-                            </small>
+                            <p className="client__review">{review}</p>
                         </SwiperSlide>
                     );
                 })}

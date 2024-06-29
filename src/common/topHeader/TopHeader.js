@@ -5,7 +5,10 @@ import { Box, Button, Drawer } from '@mui/material';
 import SideBar from '../sidebar/SideBar';
 import { MdOutlineMenu } from "react-icons/md";
 import { Link } from 'react-router-dom';
-
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+import { MdOutlineEmail } from "react-icons/md";
+import { IoCall } from "react-icons/io5";
 
 const TopHeader = () => {
     const [navActive, setNavActive] = useState("/");
@@ -19,6 +22,38 @@ const TopHeader = () => {
 
     return (
         <>
+            <Box className="top_contactdiv">
+                <div>
+                    <ul>
+                        <li>
+                            <Link to="tel:+91 9760786071">
+                                <IoCall className='fs5' /> +91 9760786071
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="mailto:mohdbilal.mymail@gmail.com">
+                                <MdOutlineEmail className='fs5' /> mohdbilal.mymail@gmail.com
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <Link to="https://www.linkedin.com/in/mohd-bilal1" target="_blank">
+                                <BsLinkedin className='fs3' />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="https://github.com/mohdbilal1" target="_blank">
+                                <FaGithub className='fs3' />
+                            </Link>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </Box>
             <Box className="topHeader" data-aos="fade-down" data-aos-duration="1000">
                 <div className='heading-div-mobile'>
                     <Button onClick={toggleDrawer(true)}><MdOutlineMenu className=' fs-1textwhite' /></Button>
@@ -32,7 +67,7 @@ const TopHeader = () => {
                 >
                     <img className="logo" src={Logo} alt='Logo' />
                 </Link>
-                
+
                 <Box className='rightUL'>
                     <ul className="liauto">
                         <li>
