@@ -13,10 +13,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_7pgqj4h",
-        "template_53zyd33",
+        "service_rqnwyqk",
+        "template_edgvtjs",
         formRef.current,
-        "oFs-r17GUiDxolT_z"
+        "5qBXGtbufOmEJ9GhA"
       )
       .then(
         (result) => {
@@ -57,8 +57,8 @@ const Contact = () => {
           </div>
         </div>
         <form ref={formRef} onSubmit={sendEmail} action="" data-aos="zoom-in" data-aos-duration="2000">
-          <input type="text" name="name" placeholder="Your Full Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="text" name="from_name" placeholder="Your Full Name" required />
+          <input type="email" name="from_email" placeholder="Your Email" required />
           <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
           <button type="submit" className="btn btn-primary">
             Send Message
