@@ -1,4 +1,4 @@
-import CV from "../../assets/Bilal-Resume-new.pdf";
+import CV from "../../assets/resume-nov24.pdf";
 
 const CTA = () => {
 
