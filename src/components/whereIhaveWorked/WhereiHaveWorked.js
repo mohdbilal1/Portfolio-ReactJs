@@ -32,7 +32,7 @@ const WhereiHaveWorked = () => {
                 <Tabs value={value} onChange={onHandleChange} className="tabs">
                     <div className="left-tabs">
                         <TabsList>
-                            <Tab style={value === 0 ? { ...mangeTabActive } : {}} className='mange-tab2' value={0}>Abaris SoftTech</Tab>
+                            <Tab style={value === 0 ? { ...mangeTabActive } : {}} className='mange-tab2' value={0}>Abaris SofTech</Tab>
                             <Tab style={value === 1 ? { ...mangeTabActive } : {}} className='mange-tab2' value={1}>---- </Tab>
                             <Tab style={value === 2 ? { ...mangeTabActive } : {}} className='mange-tab2' value={2}> ---- </Tab>
                             <Tab style={value === 3 ? { ...mangeTabActive } : {}} className='mange-tab2' value={3}>----  </Tab>
@@ -42,9 +42,9 @@ const WhereiHaveWorked = () => {
                     <div className="TabPanelDiv">
                         <TabPanel value={0}>
                             <Box className="TabPanel-content">
-                                <h1>Software Engineer <span>@ Abaris SoftTech</span></h1>
-                                <p className="worktime">Dec 2022 - Jun 2023</p>
-                                <p className="websiteName"><Link to={'/https://www.abarissoftech.com/'}>www.abarissoftech.com</Link></p>
+                                <h1>Software Engineer <span>@Abaris SofTech</span></h1>
+                                <p className="worktime">Apr 2023 - Present</p>
+                                <p className="websiteName"><Link to={'https://www.abarissoftech.com/'}>www.abarissoftech.com</Link></p>
                                 <div>
                                     <p><MdKeyboardArrowRight className=" fs1" /></p>
                                     <p> Worked on the front-end development using React.js, Bootstrap, Tailwind CSS, Material UI, Javascript</p>
@@ -52,7 +52,19 @@ const WhereiHaveWorked = () => {
                                 </div>
                                 <div>
                                     <p><MdKeyboardArrowRight className=" fs1" /></p>
-                                    <p>Designed and Built a Desktop app for Marx Group Worldwide that manage Celebrities, Events, Weddings, Real Estate</p>
+                                    <p>Integrate RESTful APIs and third-party libraries to fetch and display dynamic content on web pages.</p>
+
+                                </div>
+
+                                <div>
+                                    <p><MdKeyboardArrowRight className=" fs1" /></p>
+                                    <p>Responsible for developing and maintaining web applications for clients in various industries, focusing on front-end development. </p>
+
+                                </div>
+
+                                <div>
+                                    <p><MdKeyboardArrowRight className=" fs1" /></p>
+                                    <p>Implement responsive design principles and optimize applications for various devices and screen sizes.</p>
 
                                 </div>
                                 <div>
