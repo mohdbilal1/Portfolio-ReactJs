@@ -43,7 +43,7 @@ const WhereiHaveWorked = () => {
                         <TabPanel value={0}>
                             <Box className="TabPanel-content">
                                 <h1>Software Engineer <span>@Abaris SofTech</span></h1>
-                                <p className="worktime">Apr 2023 - Present</p>
+                                <p className="worktime">Apr 2022 - Present</p>
                                 <p className="websiteName"><Link to={'https://www.abarissoftech.com/'}>www.abarissoftech.com</Link></p>
                                 <div>
                                     <p><MdKeyboardArrowRight className=" fs1" /></p>
